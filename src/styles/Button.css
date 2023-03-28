@@ -1,0 +1,40 @@
+.btn {
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-green {
+  background-color: #204e28;
+  color: white;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.btn-red {
+  background-color: #871c01;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #204e28;
+  padding: 20px 40px;
+}
+
+.pressed {
+  background-color: #d2f2c7;
+}
+
+.btn-medium {
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+.btn-large {
+  padding: 25px 50px;
+  font-size: 20px;
+}
