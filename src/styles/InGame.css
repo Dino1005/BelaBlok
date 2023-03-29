@@ -1,0 +1,84 @@
+.in-game {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(221, 221, 221);
+}
+
+.points {
+  height: 30%;
+}
+
+.points .top {
+  height: 60%;
+  display: flex;
+}
+
+.pressed {
+  background-color: #d2f2c7 !important;
+}
+
+.top .point {
+  width: 50%;
+  display: flex;
+  background-color: white;
+  padding: 0% 10px;
+}
+
+.side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 16px;
+  justify-content: center;
+  align-items: start;
+}
+
+.side .title {
+  color: #204e28;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main_scr {
+  width: 50%;
+  font-weight: 700;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.points .bot {
+  height: 38%;
+  margin: 1% 0%;
+}
+
+.bot Button {
+  width: 50%;
+  height: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 55%;
+}
+
+.inputs div {
+  flex-basis: 31%;
+  font-weight: 800;
+  font-size: 40px;
+  height: auto;
+  margin: 1% 1%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: inline-flex;
+  width: 100%;
+  height: 15%;
+}

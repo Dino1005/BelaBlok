@@ -3,6 +3,7 @@ import Button from "./components/Button"
 import Score from "./components/Score"
 import { useState } from "react"
 import Games from "./components/Games"
+import InGame from "./components/InGame"
 
 function App() {
   const [miScore, setMiScore] = useState(0)
@@ -61,13 +62,13 @@ function App() {
 
   return (
     <div className="App">
-      <div className="heading">
+      {/*<div className="heading">
         <h2>BELA BLOK</h2>
       </div>
       <div className="games">
         <Games games={games} onClick={showGame} />
       </div>
-      {/*Umjesto onClicka staviti da se updatea kada zavrsis jedan game*/}
+      Umjesto onClicka staviti da se updatea kada zavrsis jedan game
       <div className="score">
         <div className="scr">
           <Score miScore={miScore} viScore={viScore} onClick={setScore} />
@@ -77,7 +78,8 @@ function App() {
           buttonStyle="btn-green"
           buttonSize="btn-large"
         />
-      </div>
+      </div>*/}
+      <InGame />
     </div>
   )
 }
