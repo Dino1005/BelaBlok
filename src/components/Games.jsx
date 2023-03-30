@@ -1,11 +1,11 @@
 import Game from "./Game"
 
-const Games = ({ games, onClick }) => {
+const Games = ({ games, showGame }) => {
 
   return (
     <>
       {games.map((game) => (
-        <Game key={game.id} game={game} onClick={onClick}></Game>
+        <Game key={game.id} game={game} onClick={() => showGame(game.id)}></Game>
       ))}
     </>
   )
